@@ -20,5 +20,6 @@ Array.prototype.joinRewrite = function(separator=','){
 }
 
 //Test my rewrite join(). 
+//Separator is empty string.
 let str = arr1.joinRewrite('');
-console.log(str);
+console.log(str); //"HungTuanHieuNam" 
